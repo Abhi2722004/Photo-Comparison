@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Comparison Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="introScreen" class="intro-screen">
+        <h1>Welcome to the Voting Platform for Fun!</h1>
+        <div id="introScreen" class="intro-screen">
+            <div id="countdown" class="countdown"></div>
+        </div>
+    </div>
+    
+    
+    <div id="mainContent" class="hidden">
+        <h2>Who's Looks Good? Please Vote Now!</h2>
+        <div class="comparison-container">
+            <div class="photo-box">
+                <img src="pawan1.jpg" alt="Image 1" class="photo">
+                <button id="likeButton1">👍 Like</button>
+                <span id="likeCount1" class="like-count">0</span>
+                <textarea id="comment1" placeholder="Add a comment..."></textarea>
+                <button id="submitComment1">Submit Comment</button>
+                <div id="commentsSection1" class="comments-section"></div>
+            </div>
+            <div class="photo-box">
+                <img src="sachin1.jpg" alt="Image 2" class="photo">
+                <button id="likeButton2">👍 Like</button>
+                <span id="likeCount2" class="like-count">0</span>
+                <textarea id="comment2" placeholder="Add a comment..."></textarea>
+                <button id="submitComment2">Submit Comment</button>
+                <div id="commentsSection2" class="comments-section"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
